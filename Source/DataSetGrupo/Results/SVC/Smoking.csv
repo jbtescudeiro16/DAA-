@@ -1,0 +1,2 @@
+Accuracy,Best Parameters,Cross-Validation (cv),Parameter Grid
+80.78543534132187,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear'}",5,"{'C': [0.1, 1, 10], 'kernel': ['linear', 'rbf'], 'gamma': ['scale', 'auto']}"

@@ -1,0 +1,4 @@
+Accuracy,Best Parameters,Cross-Validation (cv),Parameter Grid
+71.27352546644445,"{'penalty': 'l2', 'solver': 'sag'}",10,"{'penalty': ['l1', 'l2'], 'solver': ['sag', 'saga']}"
+71.23287671232876,"{'C': 0.01, 'penalty': 'l2'}",10,"{'penalty': ['l1', 'l2'], 'C': [0.001, 0.01, 0.1, 1, 10]}"
+71.22474696150563,"{'penalty': 'l2', 'solver': 'saga'}",10,"{'penalty': ['l1', 'l2'], 'solver': ['sag', 'saga']}"

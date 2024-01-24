@@ -1,0 +1,3 @@
+Accuracy,Best Parameters,Cross-Validation (cv),Parameter Grid
+70.96476812697904,"{'alpha': 0.1, 'solver': 'saga'}",10,"{'alpha': [0.1, 0.5, 1.0, 2.0], 'solver': ['auto', 'svd', 'cholesky', 'lsqr', 'sparse_cg', 'sag', 'saga']}"
+70.86297304987602,"{'alpha': 0.1, 'solver': 'auto'}",10,"{'alpha': [0.1, 0.5, 1.0, 2.0], 'solver': ['auto', 'svd', 'cholesky', 'lsqr', 'sparse_cg', 'sag', 'saga']}"
