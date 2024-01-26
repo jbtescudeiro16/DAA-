@@ -23,7 +23,7 @@ Podemos observar a distribuição de features como a idade, a altura e o peso na
 ![Countplot](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/countplot.png)
 
 ### Análise de correlação
-![Correlation Matrix](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/C_Smoking.png  | width=30)
+![Correlation Matrix](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/C_Smoking.png)
 
 Após realizar esta análise removemos alguns outliers, bem como incluímos novas features para passar para a fase de modelação.
 Na fase de modelação os melhores resultados , bem como hiperparâmetros utilizados estao descritos na tabela abaixo.
@@ -35,4 +35,8 @@ Na fase de modelação os melhores resultados , bem como hiperparâmetros utiliz
 Foram nos fornecidos vários datasets, cujo conteúdo assentava na produção energética e o objetivo seria prever, através de dados meteorológivos e energéticos que nos foram fornecidos qual seria a quantidade de energia que poderia ser injetada na rede proveniente de uma habitação.
 Assim foi necessário realizar vários passos como análise de dados, análise de correlação, criação de novas features.
 
-Inicialmente optamos por in
+Inicialmente optamos por juntar todos os dados em dois datframes, um que continha os dados de energia e meteorologia de teste e o outro continha os dados para treino.
+
+Após isto Analisamos a qualidade dos dados para verificar se existia ou não Missing Values ou Duplicated Rows.
+Removemos colunas com muitos missing values e analisamos a correlação.
+ ![Correlation Matrix](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/comp_corr_antes%20pp.png)
