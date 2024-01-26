@@ -38,5 +38,31 @@ Assim foi necessário realizar vários passos como análise de dados, análise d
 Inicialmente optamos por juntar todos os dados em dois datframes, um que continha os dados de energia e meteorologia de teste e o outro continha os dados para treino.
 
 Após isto Analisamos a qualidade dos dados para verificar se existia ou não Missing Values ou Duplicated Rows.
-Removemos colunas com muitos missing values e analisamos a correlação.
+Removemos colunas com muitos missing values e analisamos a correlação com a target "Injection".
  ![Correlation Matrix](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/comp_corr_antes%20pp.png)
+
+Realizaram-se alguns graficos para analisar a dispersão dos dados.
+
+![Grafico123](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/grafico123.png)
+
+![Barcharts](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/barcharts.png)
+
+![Big Graph](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/big%20graph_comp.png)
+
+
+O passo seguinte foi remover as colunas com baixa correlação, bem como incluir novas features que permitissem obter mais informação sobre o problema em questão.
+Após realizar diversas procuras, decidimos incluir algumas colunas como períodos de férias, estações do ano, períodos de sol, tentativas de previsão da injeção.
+Assim conseguimos adicionar informação muito importante para a previsão da injeção.
+Os resultados obtidos na modelação foram:
+
+![Accuracy Kaggle](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/Accuracy%20Kaggle.png)
+
+![Accuracy Comparison](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/Accuracy_Comp.png)
+
+
+## Conclusão
+
+Este trabalho foi bastante útil para ficarmos familisarizados com técnicas de Machine Learning, bem como bibliotecas como pandas,seaborn , entre outras.
+Para executar o trabalho basta baixar os notebooks e os datasets e executá-los de forma sequencial seguindo a ordem incluida nos Ficheiros.
+
+
