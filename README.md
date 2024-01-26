@@ -16,9 +16,11 @@ Foi seguida uma metodologia semelhante à que está representada na figura abaix
 Este Dataset era relativo a um ano na Coreia do Sul e continha informações de saúde relativas a um milhao de pessoas.
 O maior objetivo seria prever se um paciente fuma ou bebe , baseado em dados de saúde como pressão arterial, nivel de visao, peso.altura,diabetes,colesterol.
 Inicialmente realizamos uma análise de dados para verificar como estavam distribuídos os mesmos, bem como qual era a correlação das features com o nosso target.
-Podemos observar a distribuição de features como a idade, a altura e o peso na figura abaixo.
+Podemos observar a distribuição de features como a idade, a altura e o peso nas figuras abaixo.
 
 ![Boxplot](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/raw/main/Photos/boxplot.png)
+
+![Countplot](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/countplot.png)
 
 Análise de correlação
 ![Correlation Matrix](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/C_Smoking.png)
