@@ -22,14 +22,15 @@ Podemos observar a distribuição de features como a idade, a altura e o peso na
 
 ![Countplot](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/countplot.png)
 
-Análise de correlação
+### Análise de correlação
 ![Correlation Matrix](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/C_Smoking.png)
 
 Após realizar esta análise removemos alguns outliers, bem como incluímos novas features para passar para a fase de modelação.
 Na fase de modelação os melhores resultados , bem como hiperparâmetros utilizados estao descritos na tabela abaixo.
 
+![Drinking](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/Modelacao_Drinking.png) | ![Smoking](https://github.com/jbtescudeiro16/Dados-e-Aprendizagem-Automatica/blob/main/Photos/mODELACAO_SMOKING.png)
 
-Em 
+
 ## Dataset Energy and weather
 Foram nos fornecidos vários datasets, cujo conteúdo assentava na produção energética e o objetivo seria prever, através de dados meteorológivos e energéticos que nos foram fornecidos qual seria a quantidade de energia que poderia ser injetada na rede proveniente de uma habitação.
 Assim foi necessário realizar vários passos como aaálise de dados, análise de correlação, criação de novas features
